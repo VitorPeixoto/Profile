@@ -1,0 +1,64 @@
+:root {
+    --dark-background: #121212;
+    --dark-alpha-background: rgba(18, 18, 18, 0.6);
+    --dark-surface: #1e1e1e;
+    --dark-alpha-surface: rgba(18, 18, 18, 0.9);
+    --dark-primary: #90CAF9;
+    --dark-secondary: #F48FB1;
+
+	--dark-onsurface: #e1e1e1;	
+    --dark-onprimary: #010102;
+    --dark-onsecondary: #000000;
+}
+
+body {
+	background-color: var(--dark-background);
+	color: var(--dark-onsurface);
+}
+
+.navbar {
+	height: 54px;
+	background-color: var(--dark-surface);
+	color: var(--dark-onsurface);
+}
+
+.navbar a {
+	color: var(--dark-onsurface);
+}
+
+.card {
+	border-radius: 4px;
+	background-color: var(--dark-alpha-surface);
+}
+
+.home-card {
+	min-height: 80vh;
+	padding: 20px;
+}
+
+.home {
+	height: calc(100vh - 54px);
+	max-width: 100vw;
+	background-image: url('https://images4.alphacoders.com/153/thumb-1920-153316.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: var(--dark-alpha-background);
+	background-blend-mode: darken;
+}
+
+.flex-cc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.round-image {
+	width: 260px;
+	height: 260px;
+	border-radius: 260px;
+}
+
+.primary-color {
+	color: var(--dark-primary);
+}
